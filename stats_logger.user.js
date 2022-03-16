@@ -44,7 +44,7 @@ my_btn.onclick = function(event) {
             ta.select()
             this.textContent = "Hide stats"
         } else if (studs.length > 0) {
-            var lnk = document.getElementById("showall").getElementsByTagName("a")[0];
+            var lnk = document.querySelector('a[data-action="showcount"]');
             lnk.addEventListener("click", getStuds)
             lnk.click()
             this.textContent = "Hide stats"
