@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name     Stats Logger
 // @version  1.1
-// @include https://online.melbournepolytechnic.edu.au/*
+// @include https://example.com/*
 // ==/UserScript==
 var header = document.getElementById("page-header");
 var my_btn = document.createElement("button");
